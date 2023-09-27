@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgba(6, 4, 4, 0.868);
+    color:rgb(235, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+    width:100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(93, 62, 97);
+}
+header h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+nav li{
+    display: inline;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(248, 241, 241);
+}
+nav a :hover{
+    color:rgb(100, 116, 206);
+    text-shadow: 2px 2px 2px rgb(28, 28, 26);
+}
+.main{
+    height: 85vh;
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first{
+    font-size: larger;
+    /* font-weight: 600; */
+}
+.first p{
+    font-weight: 600;
+    color:rgb(185, 190, 195)
+    
+}
+#des{
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(212, 211, 209);
+   
+}
+#distinct{
+    font-weight: 700;
+    text-shadow: 3px 2px 2px rgb(153, 62, 153);
+}
+button{
+    margin-top: 19px;
+    margin-left: 164px;
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 700;
+}
+button a{
+    text-decoration: none;
+    color: rgb(67, 46, 86);
+
+}
+button a:hover{ 
+    color: rgb(213, 204, 220);
+}
+button:hover{
+    background-color:rgb(125, 90, 128) ;
+    color:rgb(236, 224, 224); 
+    cursor: pointer;
+}
+.second img{
+    border-radius: 50%;
+    width: 369px;
+    height: 400px;
+    box-shadow: 2px 2px 13px 2px rgb(101, 59, 108);
+    /* height: 29%; */
+    filter: revert;
+}
+footer{
+   width: 100%;
+}
+footer p{
+    text-align: center;
+    justify-content: space-around;
+    word-spacing: 4px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family:monospace;
+}
+.about{
+    width: 700px;
+    margin: 92px;
+    margin: auto;
+    
+}
+.seclst{
+    font-size: 31px;
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 23px;
+    text-shadow: 2px 2px 2px rgb(153, 62, 153);
+    text-decoration:underline;
+}
+.sec2nd{
+    padding: 25px;
+    font-size: 26px;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.sec2nd ul{
+    list-style: none;
+}
+.sec2nd ul li{
+    padding: 14px;
+}
+.sec2nd meter{
+    width: 322px;
+    height: 38px;
+    color: blueviolet;
+}
+fieldset{
+    width: 350px;
+    padding: 30px;
+    font-size: larger;
+}
+fieldset input{
+    font-size: 15px;
+}
+fieldset select{
+    font-size: 15px;
+    color: rgb(110, 105, 105);
+    width: 185px;
+}
+label{
+    font-weight: bolder;
+}
+#submit{
+    text-align: center;
+    margin-top: 19px;
+}
+#submit :hover{
+    background-color: rgb(108, 54, 123);
+    color: aliceblue;
+    border: 2px solid rgb(75, 72, 72);
+    border-radius: 6%;
+}
+#submit input{
+    font-size: 20px;
+    font-weight: 600;
+}
+#one i,#two i,#third i,#fourth i,#fifth i{
+    font-size: 33px;
+}
+#one i{
+    color: rgb(37, 37, 94);
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgb(37, 37, 94) ;
+}
+#two i{
+    color: rgb(105, 47, 91);
+    font-weight: 900;
+}
+#third i{
+    color: rgb(32, 83, 5);
+    font-weight: 900;
+}
+#fourth i{
+    color: rgb(37, 16, 141);
+    font-weight: 100;
+}
+#fifth i{
+    color: rgb(0, 1, 0);
+    font-weight: 900;
+}
+.right ul{
+ font-size: 23px;
+ text-decoration: none;
+ list-style-type:none;
+}
+.right ul li{
+    padding: 13px;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+.right ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight:normal;
+}
+meter.meter-color::-webkit-meter-optimum-value { background: rgb(125, 52, 121); }
+meter.meter-color::-webkit-meter-bar { background: cornsilk; }
+.re1{
+    margin-top: -19px;
+}
+.project{
+    margin: auto;
+    width: 900px;
+}
+.project ul{
+    padding: 100px;
+    display: flex;
+}
+.project ul li{
+    margin: 23px;
+    list-style: none;
+    background-color: aliceblue;
+    text-align: center;
+}
+.project a{
+    text-decoration: none;
+    color: rgb(45, 42, 218);
+    font-size: larger;
+    font-weight: 600;
+}
+.project img{
+    width: 280px;
+    height: 300px;
+}
+.project ul li:hover{
+    background-color: rgb(133, 66, 133);
+    
+}
+.project a:hover{
+    color: aliceblue;
+}
